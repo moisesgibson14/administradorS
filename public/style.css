@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    background: tomato;
+}
+
+#btn-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em 1.8em;
+    font: 1em sans-serif;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    background: #fff;
+    font-weight: bold;
+}
+
+#btn-modal:hover {
+    background: #d1d1d1;
+}
+
+.tes-modal {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.925);
+    padding: 1em 2em 3em;
+    top: 50%;
+    left: 50%;
+    box-shadow: 3px 3px 7px rgba(0,0,0,.3);
+    border-radius: 5px;
+    line-height: 1.6;
+    overflow: hidden;
+    opacity: 0;
+    width: 70%;
+    transform: scale(0) translate(-50%, -50%);
+    transform-origin: top left;
+    transition: all .35s ease-out;
+}
+
+.tes-container {
+    position: relative;
+}
+
+.tes-container h2 {
+    margin-bottom: 1.2em;
+}
+
+.cerrar {
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    background: #ccc;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cerrar:hover {
+    background: #afafaf;
+}
+
+.tes-modal-active {
+    opacity: 1;
+    transform: scale(1) translate(-50%, -50%);
+}
+
+@media screen and (min-width: 1024px) {
+    .tes-modal {
+        width: 35%;
+    }
+}
+

@@ -1,0 +1,279 @@
+@media (min-width: 414px) {
+    .colum {
+        -webkit-column-count: 2;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 2;
+        /* Firefox */
+        column-count: 2;
+        display: block;
+    }
+    .margin{
+            margin: 1rem;
+            border: 2px solid black;
+    }
+}
+
+textarea[name=Observaciones] {
+    resize: none;
+}
+
+
+.padding-cero{
+    padding: 0 !important;
+}
+
+.padding-pseis{
+    padding:  .6rem;
+}
+.mb-0>a {
+    display: inline-block;
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+}
+
+.card-header {
+    padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .signature {
+        position: relative;
+        border: 1px solid black;
+        width: 100%;
+        /* height: 200px; */
+    }
+}
+.signatureFirm {
+    position: relative;
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+}
+
+.texto {
+    width: 100%;
+    display: block;
+}
+
+.labels {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.camera {
+    position: absolute;
+    right: 15px;
+    bottom: 8px;
+}
+
+.picture {
+    position: absolute;
+    right: 40px;
+    bottom: 8px;
+}
+
+.inputs {
+    width: 100%
+}
+
+.space {
+    margin-top: 2px;
+}
+
+.loading {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.808);
+    z-index: 2000;
+    position: fixed;
+}
+
+.img-loading {
+    width: 200px;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 15%;
+}
+
+.options .row {
+    margin-left: 10px;
+}
+
+@media (min-width: 1200px) {
+    .colum {
+        -webkit-column-count: 2;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 2;
+        /* Firefox */
+        column-count: 2;
+        display: block;
+    }
+    .signature {
+        position: relative;
+        border: 1px solid black;
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .camera {
+        position: static;
+        margin-left: 10px;
+    }
+    .picture {
+        position: static;
+        margin-left: 10px;
+    }
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.icon-upload>input {
+    display: none;
+}
+
+/* canvas{
+    z-index: 1000;
+    position: absolute;
+    left: 0;
+} */
+
+.canvas-state {
+    position: relative;
+    height: 600px;
+    /* width: 930px */
+}
+
+@media screen and (max-width: 540px) {
+    .canvas-state {
+        height: 300px;
+    }
+}
+
+@media screen and (max-height: 540px) {
+    .canvas-state {
+        height: 300px;
+    }
+}
+
+.canvas-signature {
+    position: relative;
+    height: 150px;
+    margin: 2px;
+}
+
+.imagen-canvas {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.margen {
+    border: 1px solid black;
+}
+
+.img-signature {
+    width: 100%;
+    height: 100%;
+}
+.img-sig{
+   width: 100%;
+   height: 100% 
+}
+
+@media (min-width: 414px) {
+    .colum {
+        -webkit-column-count: 2;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 2;
+        /* Firefox */
+        column-count: 2;
+        display: block;
+    }
+}
+
+.staticModal {
+    height: 100%;
+    width: 100%;
+    max-height: 3000px;
+    max-width: 3000px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+body {
+    overflow-y: visible;
+}
+
+.btns {
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.m-signature-pad {
+    position: relative;
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e8e8e8;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.m-signature-pad--body {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 00px;
+    bottom: 0px;
+    border: 1px solid #f4f4f4;
+}
+
+.m-signature-pad--body canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(17, 52, 75, 0.02) inset;
+}
+
+@media screen and (max-width: 1024px) {
+    .m-signature-pad {
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        height: 200px;
+        min-width: 100%;
+        min-height: 100%;
+    }
+    #github {}
+}
+
+/* @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .m-signature-pad {
+  }
+} */
+
+@media screen and (max-height: 320px) {
+    .m-signature-pad--body {
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        height: 200px;
+        min-width: 100%;
+        min-height: 100%;
+    }
+}

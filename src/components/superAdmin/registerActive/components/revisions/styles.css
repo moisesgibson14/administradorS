@@ -1,0 +1,108 @@
+.textCenter{
+    text-align: center;
+}
+
+.maxHeight{
+  max-height: 200px;
+}
+
+.coloArea{
+  background-color: #70a73b !important ;
+  color: #fff;
+}
+
+.colorConstruccion{
+  background-color: #ad0000 !important;
+  color: #fff;
+}
+
+.latterDark{
+  color: black !important;
+}
+
+.borderDark{
+  border: 1px solid #000000 !important ;
+}
+
+.input-group .form-control{
+  z-index: 0 !important;
+}
+
+.marginTop{
+  margin-top: 13px;
+}
+
+.point :hover{
+  cursor: pointer;
+}
+
+.display-none{
+    display: none
+}
+
+#contenidor-botons label {
+    float:left;
+    width:32%;
+    margin:4px;
+    border-radius:4px;
+    overflow:auto;       
+}
+
+
+.formulario .radio label,
+.formulario .checkbox label {
+  display: inline-block;
+  cursor: pointer;
+  color: #1565c0;
+  position: relative;
+  padding: 5px 15px 5px 51px;
+  font-size: 1em;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .formulario .radio label:hover,
+  .formulario .checkbox label:hover {
+    background: rgba(255, 65, 54, 0.1); }
+  .formulario .radio label:before,
+  .formulario .checkbox label:before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 15px;
+    border-radius: 50%;
+    background: none;
+    border: 3px solid #1565c0; }
+.formulario input[type="radio"] {
+  display: none; }
+  .formulario input[type="radio"]:checked + label:before {
+    display: none; }
+  .formulario input[type="radio"]:checked + label {
+    padding: 5px 15px;
+    background: #1565c0;
+    border-radius: 2px;
+    color: #fff; }
+.formulario .checkbox label:before {
+  border-radius: 3px; }
+.formulario .checkbox input[type="checkbox"] {
+  display: none; }
+  .formulario .checkbox input[type="checkbox"]:checked + label:before {
+    display: none; }
+  .formulario .checkbox input[type="checkbox"]:checked + label {
+    background: #1565c0;
+    color: #fff;
+    padding: 5px 15px; }
+
+.formulario .radio {
+  text-align: center
+}
+
+#clickRevicion :hover{
+  cursor: pointer;
+}
+
+.letra{
+  font-size: 10px;
+}

@@ -1,0 +1,61 @@
+.staticModal {
+  height: 400px;
+  max-height: 450px;
+  overflow: scroll;
+}
+
+Button {
+  cursor: pointer;
+}
+
+.contorno{
+  border: solid 1px #000000
+}
+
+.thead-inverse{
+  font-size: 12px;
+}
+
+.tr{
+  font-size: 11px;
+}
+
+.searchFixed{
+  z-index: 2;
+  top:55px;
+}
+
+.searchMargin{
+  margin-bottom: 45px;
+}
+
+.provMessage {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.provMessage strong {
+  display: block;
+  margin-bottom: .5em;
+}
+
+.provMessage ul {
+  margin: 0;
+}
+
+.provInfo {
+  margin-top: 1.9em;
+}
+
+.provInfo input[disabled] {
+  background: #f8fdff !important;
+}
+
+.textDanger {
+  color: red;
+  margin: 0;
+  margin-top: .3em;
+}
